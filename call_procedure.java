@@ -13,6 +13,7 @@ public class temp {
         stmt.registerOutParameter(2,Types.CHAR);
 
         stmt.execute();
-        System.out.println("Salary: " + stmt.getInt(1) + "    Country: " + stmt.getString(2));
+        System.out.println("Salary: " + stmt.getInt(1) + "    Country: " + stmt.getString(2)); // Salary: 4    Country: VIETNAM
+
     }
 }
